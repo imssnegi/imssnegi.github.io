@@ -4,7 +4,7 @@ $hit_count = @file_get_contents('count.txt');
 $hit_count++;
 @file_put_contents('count.txt', $hit_count);
 
-header('Location: assets/download/Rasomate_v_0.1.exe'); // redirect to the real file to be downloaded
+header('Location: https://github.com/imssnegi/RASomate/releases/download/v0.2-alpha/rasomate_v_0.2.exe'); // redirect to the real file to be downloaded
 
 
 <?php
